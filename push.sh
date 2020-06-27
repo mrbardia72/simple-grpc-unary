@@ -17,3 +17,7 @@ git remote add origin $url
 
 git push origin master
 
+#if error
+# git pull --rebase origin master
+# git push origin master
+
