@@ -14,3 +14,9 @@ First consider the simplest type of RPC where the client sends a single request 
 3. Once the server has the client’s request message, it does whatever work is necessary to create and populate a response. The response is then returned (if successful) to the client together with status details (status code and optional status message) and optional trailing metadata.
 
 4. If the response status is OK, then the client gets the response, which completes the call on the client side.
+
+# Run Project
+1. cd calculator_server
+2. go run main.go
+3. cd calculator_client
+4. go run main.go
