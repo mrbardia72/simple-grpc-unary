@@ -1,4 +1,5 @@
 # simple-grpc-unary
+![alt text](https://miro.medium.com/max/1400/1*pFaeNO48gYlRMQii977cQg.jpeg)
 Unary RPCs where the client sends a single request to the server and gets a single response back, just like a normal function call.
 ```go
 rpc SayHello(HelloRequest) returns (HelloResponse);
