@@ -9,7 +9,7 @@ import (
    "net"
 )
 
-type server struct{}
+type server struct{} //routing
 
 func main() {
    fmt.Println("Server is running...")
