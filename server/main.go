@@ -20,6 +20,7 @@ func main() {
       log.Fatalf("Failed to listen: %v", err)
    }
 
+
    // Make a gRPC server
    grpcServer := grpc.NewServer()
    calculatorpb.RegisterCalculatorServiceServer(grpcServer, &server{})
